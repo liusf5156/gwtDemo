@@ -1,0 +1,49 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+
+
+    <ui:style>
+        .mian{
+
+            margin: auto;
+            width: 700px;
+            height: 450px;
+            border: 3px solid red;
+        }
+        .boder{
+            border: 1px solid darkblue;
+        }
+        .hpanel{
+           padding: 10px;
+            margin: auto;
+            border: 3px solid black ;
+        }
+        .button {
+            margin: 0 10px 0 10px;
+
+        }
+    </ui:style>
+
+    <g:HTMLPanel  styleName="{style.mian}">
+        <g:HorizontalPanel  styleName="{style.hpanel}">
+            <g:Button styleName="{style.button}">next</g:Button>
+            <g:Button styleName="{style.button}">auto</g:Button>
+            <g:Button styleName="{style.button}">stop</g:Button>
+        </g:HorizontalPanel>
+
+        <g:AbsolutePanel styleName="{style.boder}">
+            <g:LayoutPanel styleName="{style.boder}">
+                <g:layer>
+                    <g:Image></g:Image>
+                </g:layer>
+            </g:LayoutPanel >
+            <g:HorizontalPanel styleName="{style.boder}">
+                <g:FocusPanel></g:FocusPanel>
+                <g:FocusPanel></g:FocusPanel>
+                <g:FocusPanel></g:FocusPanel>
+                <g:FocusPanel></g:FocusPanel>
+            </g:HorizontalPanel>
+        </g:AbsolutePanel>
+    </g:HTMLPanel>
+</ui:UiBinder>

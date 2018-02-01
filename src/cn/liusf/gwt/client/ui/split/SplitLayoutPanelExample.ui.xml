@@ -1,0 +1,64 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+             xmlns:g="urn:import:com.google.gwt.user.client.ui">
+
+    <ui:style>
+        .north {
+            border: 1px solid #000;
+        }
+
+        .container {
+            font-size: large;
+            border: 1px solid #000;
+        }
+    </ui:style>
+
+    <g:DockLayoutPanel styleName="{style.container}">
+        <g:north size="100">
+            <g:HTMLPanel   ui:field="top" styleName="{style.north}">
+                <g:HTML>One</g:HTML>
+            </g:HTMLPanel>
+
+
+        </g:north>
+        <g:center>
+
+            <g:HTMLPanel styleName="{style.container}">
+                <g:HTML>twofd
+
+
+                    dsf
+                    g
+
+                    sdfg
+                    ds
+                    gd
+                    sg
+                    dsg
+                    ds
+                    gds
+                    g
+                    dsg
+                    dsg
+                    fds
+                    gfd
+                    gd
+                    sg
+                    fdsf
+                    gd
+                    g
+                    fdg
+                    d
+                </g:HTML>
+            </g:HTMLPanel>
+
+
+        </g:center>
+        <g:west size="300">
+            <g:HTMLPanel styleName="{style.container}">
+                <g:HTML>three</g:HTML>
+            </g:HTMLPanel>
+        </g:west>
+    </g:DockLayoutPanel>
+
+</ui:UiBinder> 

@@ -1,0 +1,22 @@
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.7.0//EN"
+        "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to="gwt">
+
+    <!-- Inherit the core Web Toolkit stuff.                  -->
+    <inherits name='com.google.gwt.user.User'/>
+    <!-- Inherit the default GWT style sheet.                       -->
+    <inherits name='com.google.gwt.user.theme.standard.Standard' />
+    <!-- Inherit the UiBinder module.                               -->
+    <inherits name = "com.google.gwt.uibinder.UiBinder"/>
+    <inherits name="com.google.gwt.resources.Resources" />
+
+    <!-- Specify the app entry point class.                   -->
+    <entry-point class='cn.liusf.gwt.client.gwt'/>
+
+    <public path="resources"/>
+    <source path = "client"/>
+    <source path="share"/>
+    <!-- Specify the app servlets.                   -->
+    <servlet path='/gwtService' class='cn.liusf.gwt.server.gwtServiceImpl'/>
+
+</module>

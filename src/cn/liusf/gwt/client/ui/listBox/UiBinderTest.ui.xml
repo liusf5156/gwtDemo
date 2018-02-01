@@ -1,0 +1,196 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <g:HTMLPanel>
+        PushButton测试.
+        <br></br>
+        <g:PushButton text="PushButton测试." width="150px" height="25px"
+                      ui:field="button_0" />
+
+        Button测试.
+        <br></br>
+        <g:Button text="Button测试." width="150px" height="25px"
+                  ui:field="button1" />
+        <g:Button text="Button测试." width="150px" height="25px"
+                  ui:field="button2" />
+
+        CheckBox测试
+        <br></br>
+        <g:CheckBox text="CheckBox测试" ui:field="checkBox_0" />
+        <g:CheckBox text="CheckBox测试" ui:field="checkBox_1" />
+
+        RadioButton测试
+        <br></br>
+        <g:RadioButton name="abc" text="CheckBox测试" ui:field="radioButton_0" />
+        <g:RadioButton name="abc" text="CheckBox测试" ui:field="radioButton_1" />
+        <g:RadioButton name="abc" text="CheckBox测试" ui:field="radioButton_2" />
+
+        <br></br>
+        TextBox测试
+        <br></br>
+        <g:TextBox text="TextBox测试" ui:field="textBox_0" />
+        <g:Label ui:field="label_0" />
+
+        <br></br>
+        ListBox测试
+        <br></br>
+        <g:ListBox ui:field="listBox_0" width="150px" />
+        <g:ListBox ui:field="listBox_1" width="150px" />
+
+        <br></br>
+        ListBox测试
+        <br></br>
+        <g:Frame url="http://www.google.com" ui:field="frame_0" width="300px"
+                 height="100px" />
+
+        <br></br>
+        RichTextArea测试
+        <br></br>
+        <g:RichTextArea ui:field="richTextArea_0" width="300px"
+                        height="100px" />
+
+        <br></br>
+        MenuBar测试
+        <br></br>
+        <g:MenuBar ui:field="menuBar_0" width="500px" />
+
+        <br></br>
+        TabBar测试
+        <br></br>
+        <g:TabBar ui:field="tabBar_0" width="300px" />
+        <g:Label text="请点击TabBar." ui:field="tabBarLabel_0" width="300px" />
+
+        <br></br>
+        Grid测试
+        <br></br>
+        <g:Grid borderWidth="1" cellPadding="1" cellSpacing="1"
+                ui:field="grid_0" width="300px" height="200px">
+        </g:Grid>
+
+        <br></br>
+        FlexTable测试
+        <br></br>
+        <g:FlexTable borderWidth="1" cellPadding="1" cellSpacing="1"
+                     ui:field="flexTable_0" width="100%" height="100px" />
+
+        <br></br>
+        Tree测试
+        <br></br>
+        <g:Tree ui:field="tree_0" width="300px" height="200px" />
+
+        <br></br>
+        Image测试
+        <br></br>
+        <g:Image url="googleapple.jpg" width="300px" height="100px" />
+
+        <br></br>
+        ScrollPanel测试
+        <br></br>
+        <g:ScrollPanel ui:field="scrollPanel_0" width="300px"
+                       height="100px" />
+
+        <br></br>
+        PopupPanel测试
+        <br></br>
+        <g:Button text="PopupPanel测试" ui:field="popupPanelButton"
+                  width="150px" height="25px" />
+
+        <br></br>
+        DialogBox测试
+        <br></br>
+        <g:Button text="DialogBox测试" ui:field="dialogBoxButton"
+                  width="150px" height="25px" />
+
+        <br></br>
+        DockPanel测试
+        <br></br>
+        <g:DockPanel ui:field="dockPanel_0" width="300px" height="200px">
+        </g:DockPanel>
+
+
+        <br></br>
+        HorizontalPanel测试
+        <br></br>
+        <g:HorizontalPanel borderWidth="1">
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+        </g:HorizontalPanel>
+
+        <br></br>
+        VerticalPanel测试
+        <br></br>
+        <g:VerticalPanel borderWidth="1">
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+        </g:VerticalPanel>
+
+        <br></br>
+        FlowPanel测试
+        <br></br>
+        <g:FlowPanel >
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+            <g:Button text="DialogBox测试" width="150px" height="25px" />
+        </g:FlowPanel>
+
+        <br></br>
+        StackPanel测试
+        <br></br>
+        <g:StackPanel ui:field="stackPanel_0">
+            <g:HTML>测试001</g:HTML>
+            <g:HTML>测试002</g:HTML>
+            <g:HTML>测试003</g:HTML>
+            <g:HTML>测试004</g:HTML>
+        </g:StackPanel>
+
+        <br></br>
+        DeckPanel测试
+        <br></br>
+        <g:DeckPanel ui:field="deckPanel_0" width="300px" height="200px">
+            <g:HTML><font color='red'>testDeck001</font></g:HTML>
+            <g:HTML><font color='blue'>testDeck001</font></g:HTML>
+            <g:HTML><font color='yellow'>testDeck001</font></g:HTML>
+            <g:HTML><font color='green'>testDeck001</font></g:HTML>
+        </g:DeckPanel>
+        <g:Button ui:field="deckPanelButton_0" text="DeckPanel测试" width="150px" height="25px" />
+
+        <br></br>
+        DisclosurePanel测试
+        <br></br>
+        [<g:DisclosurePanel>
+        <g:HTML>测试001</g:HTML>
+    </g:DisclosurePanel>]
+
+        <br></br>
+        TabPanel测试
+        <br></br>
+        <g:TabPanel ui:field="tabPanel_0" width="300px" height="200px">
+        </g:TabPanel>
+
+        <br></br>
+        MultiWordSuggestOracle测试
+        <br></br>
+        <g:SuggestBox ui:field="suggestBox_0"></g:SuggestBox>
+
+        <br></br>
+        HorizontalSplitPanel测试
+        <br></br>
+        <g:HorizontalSplitPanel width="300px" height="200px">
+            <g:HTML>测试左侧</g:HTML>
+            <g:HTML>测试右侧</g:HTML>
+        </g:HorizontalSplitPanel>
+
+        <br></br>
+        VerticalSplitPanel测试
+        <br></br>
+        <g:VerticalSplitPanel width="300px" height="200px">
+            <g:HTML>测试上面</g:HTML>
+            <g:HTML>测试下面</g:HTML>
+        </g:VerticalSplitPanel>
+
+
+    </g:HTMLPanel>
+</ui:UiBinder>
