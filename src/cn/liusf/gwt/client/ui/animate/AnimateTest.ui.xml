@@ -41,8 +41,6 @@
             <g:HorizontalPanel styleName="{style.boder}">
                 <g:FocusPanel></g:FocusPanel>
                 <g:FocusPanel></g:FocusPanel>
-                <g:FocusPanel></g:FocusPanel>
-                <g:FocusPanel></g:FocusPanel>
             </g:HorizontalPanel>
         </g:AbsolutePanel>
     </g:HTMLPanel>
